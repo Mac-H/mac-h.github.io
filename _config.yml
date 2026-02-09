@@ -1,0 +1,35 @@
+# Site settings
+title: Sample Project
+description: Brief description
+baseurl: "" # Leave empty if using username.github.io/repo-name
+url: "https://mac-h.github.io" # Your GitHub Pages URL
+
+# Repository information
+repository: mac-h/repo-name
+github_username: mac-h
+
+# Theme
+theme: minima # Simple, clean built-in theme
+# Other options: jekyll-theme-cayman, jekyll-theme-minimal, jekyll-theme-slate
+
+# Show/hide elements (minima theme specific)
+minima:
+  skin: classic # Options: classic, dark, auto, solarized-light, solarized-dark
+
+# Navigation links (optional)
+header_pages:
+  - index.md
+  - downloads.md
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
